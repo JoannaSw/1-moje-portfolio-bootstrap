@@ -202,22 +202,26 @@
     .overflow {
         width: 100%;
         height: 100%;
+        padding: 5px;
         opacity: 0;
         color: #fff;
         background-color: rgba(33, 59, 80, 0.74);
         box-sizing: border-box;
         opacity: 0;
+        overflow: hidden;
         transition: all .5s ease;
     }
     
     .inside-text {
+        width: 100%;
+        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         border: 1px solid #fff;
-        overflow: hidden;
-        margin: 5px;
+        /*        overflow: hidden;*/
+        /*        margin: 10px;*/
     }
     
     .inside-text a {
@@ -234,8 +238,7 @@
     #form-section {
         background-color: #213b50;
         color: #FFF;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding: 30px;
     }
     
     .address h3 span {
